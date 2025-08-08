@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Iqbal — Software Engineering Student</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="description" content="Personal portfolio of a Software Engineering student. HTML, CSS, JS, Python, Java." />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Iqbal</a>
+      <nav aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="certification.html">Certifications</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="primary-menu">Menu</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Hi — I'm <span class="accent">Iqbal Shigri</span></h1>
+          <p class="lead">Final Year Software Engineering Student | Web Developer | AI Enthusiast</p>
+          <div class="hero-ctas">
+            <a class="btn" href="projects.html">View Projects</a>
+            <a class="btn btn-ghost" href="contact.html">Contact Me</a>
+          </div>
+        </div>
+        <div class="hero-image" aria-hidden="true">
+          <img src="im.jpg" alt="Profile placeholder" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Quick Info -->
+    <section class="quick-info">
+      <div class="container grid grid-3">
+        <div class="card">
+          <h3>Experience</h3>
+          <p>Course projects, freelance tasks, and personal builds (Jarvis assistant).</p>
+        </div>
+        <div class="card">
+          <h3>Specialties</h3>
+          <p>Frontend, small backend scripts, automation, and problem solving.</p>
+        </div>
+        <div class="card">
+          <h3>Goals</h3>
+          <p>Internships, open-source contributions, and full-stack projects.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Projects Preview -->
+    <section class="featured-projects">
+      <div class="container">
+        <div class="section-header">
+          <h2>Selected Projects</h2>
+          <p>Quick preview of a few projects. See full list on the Projects page.</p>
+        </div>
+        <div class="grid grid-3 project-list">
+          <article class="project-card">
+            <img src="image.png" alt="Project 1 placeholder" />
+            <h3>Jarvis AI Assistant</h3>
+            <p>Voice-controlled assistant that automates tasks and answers queries.</p>
+            <a class="link" href="projects.html#jarvis">Learn more →</a>
+          </article>
+
+          <article class="project-card">
+            <img src="image.png" alt="Project 2 placeholder" />
+            <h3>Responsive Portfolio Template</h3>
+            <p>Custom portfolio built with vanilla HTML/CSS/JS — fully responsive.</p>
+            <a class="link" href="projects.html#portfolio">Learn more →</a>
+          </article>
+
+          <article class="project-card">
+            <img src="image.png" alt="Project 3 placeholder" />
+            <h3>Task Automation Scripts</h3>
+            <p>Python scripts to automate repetitive tasks and data processing.</p>
+            <a class="link" href="projects.html#automation">Learn more →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+      <div class="container cta-inner">
+        <h2>Like what you see?</h2>
+        <p>Let's build something together. I'm open to internships and collaboration.</p>
+        <a class="btn" href="contact.html">Get in touch</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Iqbal — Software Engineering Student. All rights reserved.</p>
+      <ul class="social">
+        <li><a href="#" aria-label="GitHub">GitHub</a></li>
+        <li><a href="#" aria-label="LinkedIn">LinkedIn</a></li>
+        <li><a href="#" aria-label="Twitter">Twitter</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
